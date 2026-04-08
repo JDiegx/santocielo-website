@@ -50,7 +50,7 @@ const LinkInBio = () => {
                     className='w-full h-auto flex flex-col items-center justify-center'
                 >
 
-                    <div className='w-full h-[300px] bg-[url("/img/background-img.png")] bg-cover bg-center'></div>
+                    <div className='w-full h-[250px] bg-[url("/img/background-img.png")] bg-cover bg-center'></div>
 
                     {/* LOGO ANIMADO */}
                     <motion.div
@@ -61,7 +61,7 @@ const LinkInBio = () => {
                             delay: 0.2,
                             ease: [0.22, 1, 0.36, 1],
                         }}
-                        className='w-[150px] h-[150px] bg-white shadow-md rounded-[50%] absolute top-[220px] border-4 border-white flex items-center justify-center overflow-hidden'
+                        className='w-[150px] h-[150px] bg-white shadow-md rounded-[50%] absolute top-[160px] border-4 border-white flex items-center justify-center overflow-hidden'
                     >
                         <img src="/img/santocielo-logo.png" className='w-[120px] h-[120px]' alt="Logo Santo Cielo" />
                     </motion.div>
