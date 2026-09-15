@@ -15,34 +15,20 @@ const Menu = () => {
                     initialScale={1}
                     minScale={1}
                     maxScale={4}
-
                     centerOnInit={true}
-                    centerZoomedOut={true}
-
-                    limitToBounds={true}
-                    centerZoomedOut={true}
-
+                    limitToBounds={false}
                     doubleClick={{
                         mode: 'zoomIn',
                         step: 0.7,
                     }}
-
                     pinch={{
                         disabled: false,
                     }}
-
                     wheel={{
                         disabled: true,
                     }}
-
                     panning={{
                         disabled: false,
-                    }}
-
-                    alignmentAnimation={{
-                        disabled: false,
-                        sizeX: 100,
-                        sizeY: 100,
                     }}
                 >
                     <TransformComponent
