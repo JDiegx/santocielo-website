@@ -70,7 +70,7 @@ const LinkInBio = () => {
                     className='w-full h-auto flex flex-col items-center justify-center'
                 >
 
-                    <div className='w-full h-[250px] bg-[url("/img/background-img.png")] bg-cover bg-center'></div>
+                    <div className='w-full h-[230px] bg-[url("/img/background-img.png")] bg-cover bg-center'></div>
 
                     {/* LOGO ANIMADO */}
                     <motion.div
@@ -81,7 +81,7 @@ const LinkInBio = () => {
                             delay: 0.2,
                             ease: [0.22, 1, 0.36, 1],
                         }}
-                        className='w-[150px] h-[150px] bg-white shadow-md rounded-[50%] absolute top-[177px] border-4 border-white flex items-center justify-center overflow-hidden'
+                        className='w-[150px] h-[150px] bg-white shadow-md rounded-[50%] absolute top-[150px] border-4 border-white flex items-center justify-center overflow-hidden'
                     >
                         <img src="/img/santocielo-logo.png" className='w-[120px] h-[120px]' alt="Logo Santo Cielo" />
                     </motion.div>
@@ -127,7 +127,7 @@ const LinkInBio = () => {
                         variants={item}
                         whileHover={{ scale: 1.03 }}
                         whileTap={{ scale: 0.97 }}
-                        href="https://maps.google.com/?q=Monteria+Cordoba"
+                        href="https://maps.app.goo.gl/5VSny3yvEqnJ7wzJ7"
                         target="_blank"
                         rel="noopener noreferrer"
                         className='w-[90%] h-[65px] border-black bg-white border-4 font-bold text-[20px] flex justify-center items-center cursor-pointer transition duration-300 hover:bg-black hover:text-white'
