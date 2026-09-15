@@ -8,7 +8,7 @@ const Menu = () => {
 
             <main className="w-full mt-[60px]">
                 <iframe
-                    src="/pdf/menu-santocielo-new.pdf"
+                    src="/pdf/menu.pdf"
                     title="Menú de Santo Cielo"
                     className="block w-full h-[calc(100vh-60px)] border-0"
                 />
