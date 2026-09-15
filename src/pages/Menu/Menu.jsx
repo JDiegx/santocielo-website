@@ -5,14 +5,9 @@ const Menu = () => {
     return (
         <>
             <Header />
-
-            <main className="w-full mt-[60px]">
-                <iframe
-                    src="/pdf/menu.pdf"
-                    title="Menú de Santo Cielo"
-                    className="block w-full h-[calc(100vh-60px)] border-0"
-                />
-            </main>
+            <section className='w-full flex items-center justify-center mt-[60px]'>
+                <img src="/img/menu-svg.svg" alt="Menu of Santo Cielo!" className='' />
+            </section>
         </>
     )
 }
