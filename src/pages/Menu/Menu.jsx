@@ -6,13 +6,13 @@ const Menu = () => {
         <>
             <Header />
 
-            <section className="w-full mt-[60px]">
+            <main className="w-full mt-[60px]">
                 <iframe
                     src="/pdf/menu-santocielo-new.pdf"
                     title="Menú de Santo Cielo"
-                    className="w-full h-[calc(100vh-60px)] border-0"
+                    className="block w-full h-[calc(100vh-60px)] border-0"
                 />
-            </section>
+            </main>
         </>
     )
 }
